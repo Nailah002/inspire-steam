@@ -1,6 +1,6 @@
 #Name: Nailah Wanjiku
 #Date: 12/2/2026
-#string_formating.py
+#string_formating
 
 #capitalize
 sentence = "confirmed:"
