@@ -15,5 +15,5 @@ for x in range(0,360,30):
     print(math.tan(x))
 
 
-    for i in range(10,0,-1):
+    for i in range(0,10,1):
         print(i)

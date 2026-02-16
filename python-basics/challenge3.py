@@ -6,11 +6,11 @@ import math
 
 
 for x in range(-180,+180,30):
-    print(math.sin(x))
+    print(f"syntax of {x} = {math.sin(x)}")
 
 for x in range(-180,+180,30):
-    print(math.cos(x))
+    print(f"cosine of {x} = {math.cos(x)}")
 
 for x in range(-180,+180,30):
-    print(math.tan(x))
+    print(f"tangent of {x} = {math.tan(x)}")
 
