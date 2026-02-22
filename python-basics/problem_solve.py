@@ -43,3 +43,16 @@ ninja_character.kick(warrior_character)
 
 ninja_character.report_status()
 warrior_character.report_status()
+
+Copy the assignment from the three quotes on the top to the end. 
+See if you can spot the first logical error. 
+
+Run the code again to see if the warrior's health is as expected.
+
+The second challenge is to the adventurous. Use inspiration from the kick(self, opponent) function to implement a takle(Self, opponent) function. 
+
+Add these lines to the end to see if the attempts at the takle function is well made:
+
+warrior_character.takle(ninja_character)
+ninja_character.report_status()
+warrior_character.report_status()
