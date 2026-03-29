@@ -4,6 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Module05: Classes, ids</title>
+
+    <style>
+        body{
+            background-color: blanchedalmond;
+            color: black;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin:0;
+            padding:0;
+        }
+        #page-wrapper{
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 40px 24px;
+        }
+        .Band-photos{
+            width: 200px;
+            height: auto;
+            object-fit: cover;    
+        }
+        #photos{
+            background-color: bisque;
+        }
+        #listen-section{
+            position:relative;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            width: 500px;
+            height: 500px;
+            background-color: aliceblue;
+        }
+    </style>
 </head>
 <body>
     <!--
@@ -15,8 +47,14 @@
         <h1>Imagine Dragons</h1>
         <p>Disc: An American rock pop band </p>
 
-        <img class = "Band-photos" src = "./assets/images/Imagine Dragons.jpg" alt = "Band photo">
-        
+        <div class = "photos">
+            <img class = "Band-photos" src = "./assets/images/Imagine Dragons.jpg" alt = "Band photo">
+        </div>
+
+        <div> id = "listen-section">
+            <p class = "song">Latest song</p>
+            <p class = "song">Earlier song</p>
+        </div>
     </div>
     
 </body>

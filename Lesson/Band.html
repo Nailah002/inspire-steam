@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagine Dragons</title>  
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: rgb(213, 17, 14);
+            background: url('Imagine Dragons.jpg') no-repeat center center/cover;
+        }
+
+        /* NAVBAR */
+        nav {
+            background: rgba(0,0,0,0.7);
+            padding: 15px;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            color: rgb(46, 152, 164);
+            margin: 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ff0055;
+        }
+
+        /* HERO SECTION */
+        .hero {
+            height: 90vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: rgba(44, 229, 7, 0.6);
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 60px;
+        }
+
+        section {
+            background: rgba(48, 161, 179, 0.8);
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .lyrics {
+            line-height: 1.6;
+        }
+
+        audio {
+            width: 80%;
+        }
+
+        iframe {
+            border-radius: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: rgb(10, 193, 178);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#lyrics">Lyrics</a>
+        <a href="#music">Music</a>
+        <a href="#video">Video</a>
+    </nav>
+
+    <!-- HERO -->
+    <div class="hero" id="home">
+        <h1>Imagine Dragons</h1>
+        <p>Feel the Thunder ⚡</p>
+    </div>
+
+    <!-- LYRICS -->
+    <section id="lyrics">
+        <h2>🎤 "Believer" Lyrics</h2>
+        <div class="lyrics">
+            <p>
+                First things first<br>
+                I'ma say all the words inside my head<br>
+                I'm fired up and tired of the way that things have been...<br><br>
+
+                Pain! You made me a believer 🔥
+            </p>
+        </div>
+    </section>
+
+    <!-- AUDIO -->
+    <section id="music">
+        <h2>🎵 Listen</h2>
+        <audio controls>
+            <source src="believer.mp3" type="audio/mpeg">
+        </audio>
+    </section>
+
+    <!-- VIDEO -->
+    <section id="video">
+        <h2>🎬 Watch</h2>
+        <iframe width="560" height="315" 
+        src="https://www.youtube.com/embed/7wtfhZwyrcc?si=x210AUgSb2adUHIh" 
+        allowfullscreen>
+        </iframe>
+    </section>
+
+    <footer>
+        <p>Fan Page | Imagine Dragons</p>
+    </footer>
+
+</body>
+</html>
