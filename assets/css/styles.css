@@ -630,3 +630,17 @@ img {
   display: block;
 }
 
+/* Make images fill their container */
+.work__category .work__subtitle:contains("WEB DEVELOPMENT") + .work__container .work__img img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;     /* optional: rounded corners */
+}
+
+/* Stack on small screens */
+@media screen and (max-width: 768px) {
+  .work__category .work__subtitle:contains("WEB DEVELOPMENT") + .work__container .work__img {
+    flex: 1 1 100%;       /* full width on mobile */
+  }
+}
