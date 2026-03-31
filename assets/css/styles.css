@@ -793,5 +793,22 @@ img {
   50% { transform: translateY(-10px); }
 }
 
+.python-row {
+  display: flex;
+  gap: 20px;           /* space between images */
+  justify-content: center;
+  align-items: center;
+}
 
+.python-row .work__img img {
+  width: 250px;        /* adjust size */
+  height: auto;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .python-row {
+    flex-direction: column;
+  }
+}
 
