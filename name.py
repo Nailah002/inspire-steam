@@ -1,5 +1,5 @@
 Name : Nailah W. Marie
 Favourite sport : Table tennis
-Grade : C 
+Grade : C
 Hobby : Reading
 Course : Information Technology
